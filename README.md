@@ -1,5 +1,11 @@
 # Name pending
-Name pending is a game to promote the use of cryptocurrencies and social media based in blockchain with minigames in a very fun way.
+Name pending is a game hub to promote the use of cryptocurrencies and blockchain based platforms with minigames in a very fun way.
+
+## How to install
+- Download all the files in the **build** folders of the game you want to install.
+- Upload them to your server. Or run a local server.
+- Open the **index.html** file.
+- Have fun!
 
 # The games
 
