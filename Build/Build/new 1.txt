@@ -1,0 +1,2 @@
+Ideas:
+Player turns into upvote & pigs turn into objects.
