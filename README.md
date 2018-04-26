@@ -1,5 +1,10 @@
-# Spam Pig
-SPAM PIG is a game to promote STEEM/steemit and educate about spam in a fun way.
+# Name pending
+Name pending is a game to promote the use of cryptocurrencies and social media based in blockchain with minigames in a very fun way.
+
+# The games
+
+## Spampig
+**Objective** To educate about spam in STEEM platforms.
 
 The Spampig is trying to catch upvotes, but your mission is to feed him only with flags! If he gets an upvote he says an spammy comment.
 
