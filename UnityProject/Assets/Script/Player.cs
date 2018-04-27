@@ -7,10 +7,9 @@ public class Player : MonoBehaviour
 {
     private void Update()
     {
-        if (GameManager.currentState == GameState.ACTIVE && Input.GetMouseButtonDown(0))
-            UpdatePosition2();
+        UpdatePosition2();
 
-        transform.position = Vector2.MoveTowards(transform.position, targetPos, 60 * Time.deltaTime);
+        transform.position = targetPos;
     }
 
     private Vector2 targetPos;
