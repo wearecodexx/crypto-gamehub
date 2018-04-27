@@ -15,14 +15,19 @@ public class ScoreSystem : MonoBehaviour
         if (_event != null)
             _event();
     }
+
+    public static void LoadData(Data data)
+    {
+        highScore = data.highscore;
+    }
     #endregion;
 
-    public float score { get; private set; }
+    public int score { get; private set; }
 
-    public static float HighScore { get { return highScore; } }
-    private static float highScore;
+    public static int HighScore { get { return highScore; } }
+    private static int highScore;
 
-    public void IncrementScore(float increment)
+    public void IncrementScore(int increment)
     {
         score += increment;
 
@@ -32,7 +37,7 @@ public class ScoreSystem : MonoBehaviour
         FireEvent(ScoreChanged);
     }
 
-    public void DecerementScore(float decrement)
+    public void DecerementScore(int decrement)
     {
         if (score - decrement >= 0)
             score -= decrement;
@@ -46,10 +51,12 @@ public class ScoreSystem : MonoBehaviour
 
     private void OnEnable()
     {
+        DataManagement.DataLoaded += LoadData;
         ScoreChanged += UpdateScoreUI;
     }
     private void OnDisable()
     {
+        DataManagement.DataLoaded -= LoadData;
         ScoreChanged -= UpdateScoreUI;
     }
 

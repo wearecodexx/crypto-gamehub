@@ -4,7 +4,7 @@ using UnityEngine;
 
 public sealed class GenericObject : InteractableObject
 {
-    public static readonly float baseScore = 3;
+    public static readonly int baseScore = 3;
 
     private Skin initialSkin;
     private Skin hostileSkin;

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Utility : MonoBehaviour
 {
@@ -27,5 +28,10 @@ public class Utility : MonoBehaviour
     private void Update()
     {
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+    }
+
+    public void LoadScene(int ID)
+    {
+        SceneManager.LoadScene(ID);
     }
 }

@@ -43,9 +43,11 @@ public class GameManager : MonoBehaviour
 
     public void Gameover()
     {
+        panel.SetActive(true);
+
         ChangeState(GameState.AWAITING);
 
-        panel.SetActive(true);
+        DataManagement.Save();
     }
 
     public void Retry()
@@ -60,6 +62,11 @@ public class GameManager : MonoBehaviour
     private void ChangeState(GameState state)
     {
         currentState = state;
+
+        if (currentState != GameState.ACTIVE)
+            Cursor.visible = true;
+        else
+            Cursor.visible = false;
 
         FireEvent(GameStateChanged);
     }
