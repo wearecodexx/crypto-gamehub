@@ -1,5 +1,7 @@
-# Name pending
-Name pending is a game hub to promote the use of cryptocurrencies and blockchain based platforms with minigames in a very fun way.
+# Crypto Gamehub
+Crypto Gamehub is a web collection of minigames to promote good behaviour on  & the use of various cryptocurrency/blockchain platforms. The people of the community are encouraged to contribute their own minigames to this hub.
+
+This hub will be available to the community for web integration onto their own sites.
 
 ## How to install
 - Download all the files in the **build** folders of the game you want to install.
@@ -16,7 +18,7 @@ The Spampig is trying to catch upvotes, but your mission is to feed him only wit
 
 And remember: Never leave spam comments!
 
-### Build #2
+### Build #5
 
 #### Notes:
 
@@ -28,7 +30,7 @@ And remember: Never leave spam comments!
 * Implemented UI.
 
 #### Bug Fixes:
-* Fixed game breaking bug which prevented application launch.
+* Fixed game breaking bug which prevented application launch from build #3.
 
 #### Bugs To Address:
 * Initial lag when interacting with a object.
