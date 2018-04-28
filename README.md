@@ -45,3 +45,12 @@ Crypto game hub is a provisional name.
 
 #### Bugs To Address:
 * Initial lag when interacting with a object.
+
+## Future features
+- Sound effects and background music
+- Add variety to gameplay by introducing different objects & mechanics.
+- **Don't upvote mode**. Only upvotes will fall and you have to move the pig to avoid them, score will show time instead of points.
+- Data parser
+- Creation of gamehub interface with access to all the minigames.
+- Design and integration of custom loading and splash screens.
+- Earn badges and prizes according to achievements
