@@ -1,4 +1,4 @@
-# Crypto Gamehub*
+# Crypto Gamehub
 
 Crypto Gamehub is a web collection of minigames to promote the use of cryptocurrencies and blockchain based platforms in a very fun way. We also want to educate about the good use of such platforms, like flagging spammers, supporting the begginers, and the good behavior in general.
 
@@ -28,20 +28,18 @@ The Spampig is trying to catch upvotes, but your mission is to feed him only wit
 
 And remember: Never leave spam comments!
 
-### Build #4
+### Build #5
 
 #### Notes:
-Crypto game hub is a provisional name.
+Crypto GameHub is a provisional name.
 
 #### Changes:
-* Modified the core gameplay mechanic: The SPAMPIG now follows your cursor.
-* Implemented original assets.
-* Saving & Loading Highscores.
-* Proper data management to facilitate modifying save & load data.
-* Implemented UI.
+* Removed temporary sound effects in preparation for original sound effects.
+* Polished & Commented code.
+* Decreased difficulty curve.
 
 #### Bug Fixes:
-* Fixed game breaking bug which prevented application launch.
+* Nothing at the moment.
 
 #### Bugs To Address:
 * Initial lag when interacting with a object.
