@@ -13,7 +13,8 @@ The people of the community are encouraged to contribute their own minigames to 
 - Have fun!
 
 ## How to modify
-- Install unity
+- You’re required to install unity if you wish to modify this project, as this game is developed with Unity & C#.
+- After you’ve installed Unity all you’ve got to do is open the “UnityProject” folder with Unity.
 
 ## How to contribute
 If you are a programmer, a designer, sound effects or music creator and want to contribute to any of the games of the hub or  have an idea to create from scratch, feel free to join our discord server: https://discord.gg/8ZNq3Ss; there we can further talk about it.
