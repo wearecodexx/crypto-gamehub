@@ -18,6 +18,8 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 31aaf521b3ef8699466676591ea0efd4 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AudioDatabase
+d8257f3722ce6352b59b4c24641b53bc Assembly-CSharp.dll:.PigIcon
+17dc699285af0d8b8b6a9e4ce018086e Assembly-CSharp.dll:.Mainmenu
 879549eeb20ce7b53c4bf2c6868f38bc Assembly-CSharp.dll:.ScoreSystem
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -121,9 +123,11 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
+facfb39a0121437f99139f75c6d55b98 Assembly-CSharp.dll:.DOT
 493f738f00eb64869bee95eb9192e1d8 Assembly-CSharp.dll:.Skin
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DataManagement
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Player
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -158,7 +162,3 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 e42a98e02e143c2a2ba46377a7b8397d Assembly-CSharp.dll:.SkinDatabase
-17dc699285af0d8b8b6a9e4ce018086e Assembly-CSharp.dll:.Mainmenu
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DataManagement
-facfb39a0121437f99139f75c6d55b98 Assembly-CSharp.dll:.DOT
-d8257f3722ce6352b59b4c24641b53bc Assembly-CSharp.dll:.PigIcon

@@ -28,7 +28,7 @@ And remember: Never leave spam comments!
 * Implemented UI.
 
 #### Bug Fixes:
-* Nothing at the moment.
+* Fixed game breaking bug which prevented application launch.
 
 #### Bugs To Address:
 * Initial lag when interacting with a object.
