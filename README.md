@@ -1,4 +1,4 @@
-# Crypto Gamehub*
+# Crypto Gamehub
 
 Crypto Gamehub is a web collection of minigames to promote the use of cryptocurrencies and blockchain based platforms in a very fun way. We also want to educate about the good use of such platforms, like flagging spammers, supporting the begginers, and the good behavior in general.
 
@@ -28,7 +28,7 @@ The Spampig is trying to catch upvotes, but your mission is to feed him only wit
 
 And remember: Never leave spam comments!
 
-### Build #4
+### Build #5
 
 #### Notes:
 Crypto GameHub is a provisional name.
