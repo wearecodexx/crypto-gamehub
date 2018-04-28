@@ -23,14 +23,10 @@ And remember: Never leave spam comments!
 #### Notes:
 
 #### Changes:
-* Modified the core gameplay mechanic: The SPAMPIG now follows your cursor.
-* Implemented original assets.
-* Saving & Loading Highscores.
-* Proper data management to facilitate modifying save & load data.
-* Implemented UI.
+* Removed all temporary music in preparation for original music.
 
 #### Bug Fixes:
-* Fixed game breaking bug which prevented application launch from build #3.
+* Gameover icon text display.
 
 #### Bugs To Address:
 * Initial lag when interacting with a object.
