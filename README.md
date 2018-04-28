@@ -1,5 +1,5 @@
-# Name pending
-Name pending is a game hub to promote the use of cryptocurrencies and blockchain based platforms with minigames in a very fun way.
+# Crypto Game Hub*
+This game hub objective is to promote the use of cryptocurrencies and blockchain based platforms with minigames in a very fun way. We also want to educate about the good use of such platforms, like flagging spammers, supporting the begginers, and the good behavior in general.
 
 ## How to install
 - Download all the files in the **build** folders of the game you want to install.
