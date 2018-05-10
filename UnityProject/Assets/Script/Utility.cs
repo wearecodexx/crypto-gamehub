@@ -30,8 +30,8 @@ public class Utility : MonoBehaviour
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
 
-    public void LoadScene(int ID)
+    public void LoadScene(string name)
     {
-        SceneManager.LoadScene(ID);
+        LevelLoader.LoadLevel(name);
     }
 }

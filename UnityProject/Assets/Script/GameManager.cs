@@ -37,8 +37,7 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         ChangeState(GameState.ACTIVE);
-
-        SceneManager.LoadScene(1);
+        Utility.instance.LoadScene("SPAMPIG");
     }
 
     public void Gameover()
@@ -46,8 +45,6 @@ public class GameManager : MonoBehaviour
         panel.SetActive(true);
 
         ChangeState(GameState.AWAITING);
-
-        DataManagement.Save();
     }
 
     public void Retry()
@@ -56,7 +53,7 @@ public class GameManager : MonoBehaviour
 
         InteractableObject.ResetCount();
 
-        SceneManager.LoadScene(1);
+        Utility.instance.LoadScene("SPAMPIG");
     }
 
     private void ChangeState(GameState state)
