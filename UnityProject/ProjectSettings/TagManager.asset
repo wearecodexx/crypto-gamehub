@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Objects
   - 
   - 
   - 
@@ -40,4 +40,28 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Sky
+    uniqueID: 2090147893
+    locked: 0
+  - name: Back_Bottom_Cloud
+    uniqueID: 1339605277
+    locked: 0
+  - name: Back_Moving_Clouds
+    uniqueID: 1132343065
+    locked: 0
+  - name: Structures
+    uniqueID: 1154310797
+    locked: 0
+  - name: Objects
+    uniqueID: 2358862065
+    locked: 0
+  - name: Player
+    uniqueID: 1425824905
+    locked: 0
+  - name: Front_Moving_Clouds
+    uniqueID: 1862475123
+    locked: 0
+  - name: Front_Bottom_Cloud
+    uniqueID: 2952777783
     locked: 0
