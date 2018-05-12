@@ -24,6 +24,12 @@ public class Mainmenu: MonoBehaviour
         UpdateHighscoreText();
     }
 
+    public void StartGame()
+    {
+        GameManager.ChangeState(GameState.ACTIVE);
+        Utility.instance.LoadScene("SPAMPIG");
+    }
+
     private void UpdateHighscoreText()
     {
         highscoreText.text = "Highscore: " + ScoreSystem.HighScore.ToString();

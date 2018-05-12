@@ -7,16 +7,10 @@ public class Player : MonoBehaviour
 {
     private void Update()
     {
-        UpdatePosition2();
-
-        transform.position = targetPos;
-    }
-
-    private Vector2 targetPos;
-
-    private void UpdatePosition2()
-    {
-        targetPos = Utility.MousePos;
+        if (GameManager.currentState == GameState.ACTIVE)
+        {
+            UpdatePosition();
+        }
     }
 
     private void UpdatePosition()

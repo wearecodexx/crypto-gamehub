@@ -93,7 +93,6 @@ public sealed class GenericObject : InteractableObject
 
     public override void Caught()
     {
-        AudioDatabase.instance.GetSFX(Random.Range(0, AudioDatabase.instance.sfxCount)).Play();
         ScoreSystem.instance.IncrementScore(baseScore * multiplier);
 
         Instantiate(blood, transform.position, Quaternion.identity);

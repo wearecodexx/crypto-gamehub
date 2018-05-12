@@ -59,6 +59,7 @@ public class ObstacleGenerator : MonoBehaviour
 
     private void Initialize()
     {
+        spawnTime = 4f;
         interval = baseInterval;
     }
 

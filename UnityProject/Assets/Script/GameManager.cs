@@ -24,6 +24,12 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject panel;
 
+    [SerializeField] private GameObject pausePanel;
+    [SerializeField] private float idleThreshhold;
+    private float lastActive;
+    private Vector2 lastActivePosition;
+
+
     private void Awake()
     {
         instance = this;
@@ -32,12 +38,43 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         _currentState = currentState;
+
+        CheckIdle();
     }
 
-    public void StartGame()
+    private void CheckIdle()
+    {
+        if (Time.time >= lastActive)
+        {
+            if ((Vector2)Input.mousePosition == lastActivePosition)
+            {
+                if (currentState == GameState.ACTIVE)
+                {
+                    //Pause.
+                    Debug.Log("Player Inactive! Pausing...");
+
+                    Pause();
+                }
+            }
+
+
+            lastActivePosition = Input.mousePosition;
+            lastActive = Time.time + idleThreshhold;
+        }
+    }
+
+    public void Pause()
+    {
+        ChangeState(GameState.INACTIVE);
+
+        pausePanel.SetActive(true);
+    }
+
+    public void ContinueGame()
     {
         ChangeState(GameState.ACTIVE);
-        Utility.instance.LoadScene("SPAMPIG");
+
+        pausePanel.SetActive(false);
     }
 
     public void Gameover()
@@ -56,14 +93,14 @@ public class GameManager : MonoBehaviour
         Utility.instance.LoadScene("SPAMPIG");
     }
 
-    private void ChangeState(GameState state)
+    public static void ChangeState(GameState state)
     {
         currentState = state;
 
-        if (currentState != GameState.ACTIVE)
-            Cursor.visible = true;
-        else
+        if (currentState == GameState.ACTIVE)
             Cursor.visible = false;
+        else
+            Cursor.visible = true;
 
         FireEvent(GameStateChanged);
     }
