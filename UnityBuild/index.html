@@ -3,23 +3,89 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Spam Pig</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <title>wearecodex | Spam Pig</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.png">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
+      <link rel="stylesheet" href="css/spampig.css">
+    <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Builds.json", {onProgress: UnityProgress});
     </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118549046-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-118549046-1');
+    </script>
+    
   </head>
   <body>
+    <section id="top">
+        <div class="container">
+        <img src="images/spampig_logo.png">
+        </div>
+      
+    </section>
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">Spam Pig</div>
       </div>
     </div>
+      <section class="directors">
+          <div class="container">
+              <h1>PROJECT DIRECTORS</h1>
+            <div class="member col-50">
+                <div class="social">
+                    <div class="avatar"><a href="https://steemit.com/@alpacachino" target="_blank"><img src="images/avatar_alpacachino.png"></a></div>
+                    <a href="https://steemit.com/@alpacachino" target="_blank"><img src="images/socialmedia_steem.png"></a> <a href="https://steemit.com/@alpacachino" target="_blank"><img src="images/socialmedia_tw.png"></a> <a href="https://steemit.com/@alpacachino" target="_blank"><img src="images/socialmedia_inst.png"></a>
+                </div>
+                <h2><a href="https://steemit.com/@alpacachino" target="_blank">@alpacachino</a></h2>
+                <span class="role">DEVELOPMENT</span>
+                <p>The youngest member of wearecodex team and development area leader. Currently working on spampig and some great projects of his own.</p>
+                <div class="clearfix"></div>
+                
+                <div class="support">
+                    Support <strong><a href="https://steemit.com/@alpacachino" target="_blank">@alpacachino</a></strong>: &nbsp; <a href="https://steemit.com/@alpacachino" target="_blank"><img src="images/wallet_steem.png"></a><!-- <img src="images/wallet_eth.png"> <img src="images/wallet_bitcoin.png">-->
+                </div>
+             </div><!--
+              
+            --><div class="member col-50">
+                <div class="social">
+                    <div class="avatar"><a href="https://steemit.com/@fabiyamada" target="_blank"><img src="images/avatar_fabiyamada.png"></a></div>
+                    <a href="https://steemit.com/@fabiyamada" target="_blank"><img src="images/socialmedia_steem.png"></a> <a href="https://twitter.com/mxYamada" target="_blank"><img src="images/socialmedia_tw.png"></a> <a href="https://www.instagram.com/mx.yamada/" target="_blank"><img src="images/socialmedia_inst.png"></a> <a href="https://www.youtube.com/channel/UC2utK5AeqEvFm_PZuh15RrA" target="_blank"><img src="images/socialmedia_yt.png"></a>
+                </div>
+                <h2><a href="https://steemit.com/@fabiyamada" target="_blank">@fabiyamada</a></h2>
+                <span class="role">ART</span>
+                <p>Founder and leader of wearecodex team. A graphic designer with a passion for pixels, voxels, vectors... and spreading the word about STEEM!</p>
+                <div class="clearfix"></div>
+                
+                <div class="support">
+                    Support <strong><a href="https://steemit.com/@fabiyamada" target="_blank">@fabiyamada</a></strong>: &nbsp; <a href="https://steemit.com/@fabiyamada" target="_blank"><img src="images/wallet_steem.png"></a><!-- <img src="images/wallet_eth.png"> <img src="images/wallet_bitcoin.png">-->
+                </div>
+             </div>
+          </div>
+      </section>
+      <section class="game-desc">
+          <div class="container">
+              <div class="col-50">
+                <h1><strong>SPAMPIG</strong> IS THE FIRST MINIGAME OF OUR GAMEHUB</h1>
+                <p>We are currently working with the idea development for more games, also spampig is not finished yet, you can already have a lot of fun for sure, but it will be so amazing soon. </p>
+                <p><strong>Keep flagging those spammers and never give them an upvote!</strong></p>
+              </div><!--
+              --><div class="col-50">
+              <img src="images/pig_back.png" class="game-desc-img">
+              </div>
+          </div>     
+      </section>
+      <div class="container">
+      <div class="thanks col-50">Thanks for playing!</div>
+      </div>
   </body>
 </html>
