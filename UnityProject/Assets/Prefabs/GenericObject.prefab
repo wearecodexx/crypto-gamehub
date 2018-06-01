@@ -93,7 +93,7 @@ MonoBehaviour:
   speedRange:
     min: 60
     max: 120
-  blood: {fileID: 198545820198392592, guid: fb7323242221920419e8012a1d264a20, type: 2}
+  blood: {fileID: 198873728908028536, guid: f35bf3eb6c7e78843b397463fb16aa23, type: 2}
 --- !u!212 &212250970985735184
 SpriteRenderer:
   m_ObjectHideFlags: 1
