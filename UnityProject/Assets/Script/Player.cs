@@ -5,6 +5,13 @@ using UnityEngine.EventSystems;
 
 public class Player : MonoBehaviour
 {
+    private Animator anim;
+
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
+
     private void Update()
     {
         if (GameManager.currentState == GameState.ACTIVE)
@@ -25,18 +32,22 @@ public class Player : MonoBehaviour
 
     private void Die()
     {
+        StartCoroutine(DeathAnimation());
+    }
+
+    private IEnumerator DeathAnimation()
+    {
+        AnimationClip animation = anim.runtimeAnimatorController.animationClips[1];
+        float length = animation.length;
+
+        anim.Play(animation.name);
+
+        yield return new WaitForSeconds(length);
+
         this.gameObject.SetActive(false);
 
         GameManager.instance.Gameover();
     }
-
-    //private void OnMouseDrag()
-    //{
-    //    if (GameManager.currentState == GameState.ACTIVE)
-    //    {
-    //        UpdatePosition();
-    //    }
-    //}
 
     private InteractableObject collision;
     private void OnTriggerEnter2D(Collider2D other)
